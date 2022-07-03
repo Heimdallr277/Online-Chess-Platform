@@ -1,0 +1,40 @@
+<RCC>
+    <qresource prefix="/pics">
+        <file alias="-2">image/BA.GIF</file>
+        <file alias="-2s">image/BAS.GIF</file>
+        <file alias="-3">image/BB.GIF</file>
+        <file alias="-3s">image/BBS.GIF</file>
+        <file alias="-6">image/BC.GIF</file>
+        <file alias="-6s">image/BCS.GIF</file>
+        <file alias="-1">image/BK.GIF</file>
+        <file alias="-1f">image/BKM.GIF</file>
+        <file alias="-1s">image/BKS.GIF</file>
+        <file alias="-4">image/BN.GIF</file>
+        <file alias="-4s">image/BNS.GIF</file>
+        <file alias="-7">image/BP.GIF</file>
+        <file alias="-7s">image/BPS.GIF</file>
+        <file alias="-5">image/BR.GIF</file>
+        <file alias="-5s">image/BRS.GIF</file>
+        <file alias="0">image/OO.GIF</file>
+        <file alias="0s">image/OOS.GIF</file>
+        <file alias="2">image/RA.GIF</file>
+        <file alias="2s">image/RAS.GIF</file>
+        <file alias="3">image/RB.GIF</file>
+        <file alias="3s">image/RBS.GIF</file>
+        <file alias="6">image/RC.GIF</file>
+        <file alias="6s">image/RCS.GIF</file>
+        <file alias="1">image/RK.GIF</file>
+        <file alias="1f">image/RKM.GIF</file>
+        <file alias="1s">image/RKS.GIF</file>
+        <file alias="4">image/RN.GIF</file>
+        <file alias="4s">image/RNS.GIF</file>
+        <file alias="7">image/RP.GIF</file>
+        <file alias="7s">image/RPS.GIF</file>
+        <file alias="5">image/RR.GIF</file>
+        <file alias="5s">image/RRS.GIF</file>
+        <file alias="BG">image/WOOD.GIF</file>
+    </qresource>
+    <qresource prefix="/audio">
+        <file alias="checkmate">audio/checkmate.mp3</file>
+    </qresource>
+</RCC>

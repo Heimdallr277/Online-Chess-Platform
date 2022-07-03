@@ -1,0 +1,38 @@
+#ifndef NEWSERVERDIALOG_H
+#define NEWSERVERDIALOG_H
+
+#include <QDialog>
+#include <QMessageBox>
+#include <QNetworkInterface>
+#include <QValidator>
+
+namespace Ui {
+class NewServerDialog;
+}
+
+class NewServerDialog : public QDialog
+{
+    Q_OBJECT
+
+public:
+    explicit NewServerDialog(QWidget *parent = 0);
+    ~NewServerDialog();
+    QString getHostIpAddress(); //获取本机当前IP地址
+    int getPort();              //读取用户输入的端口号
+
+signals:
+    void connecting(int portnum);//开始连接时发出的信号
+    void cancelconnecting();     //取消连接时发出的信号
+
+private slots:
+    void on_pushButton_clicked();   //连接按钮
+    void on_pushButton_2_clicked(); //取消连接按钮
+    void connected();               //连接成功后触发的槽函数
+
+private:
+    Ui::NewServerDialog *ui;
+    bool isconnecting;  //表示正在连接的状态
+    int port;           //存储端口号
+};
+
+#endif // NEWSERVERDIALOG_H
